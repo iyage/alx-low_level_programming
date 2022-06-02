@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E $CFILE | tail -n10 >main.s
+gcc -E $CFILE >main.s
