@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-char c ;
+char c;
 
 /* your code goes there */
 for (c = 'a'; c <= 'z'; c++)
