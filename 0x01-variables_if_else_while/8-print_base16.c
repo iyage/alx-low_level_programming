@@ -14,7 +14,7 @@ int n;
 int tmp;
 
 /* your code goes there */
-for (n = 48; n < 63; n++)
+for (n = 48; n < 64; n++)
 {
 if (n > 57)
 {
