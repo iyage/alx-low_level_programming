@@ -11,19 +11,16 @@
 int main(void)
 {
 int n;
-int tmp;
 
 /* your code goes there */
-for (n = 48; n < 63; n++)
+for (n = 48; n < 58; n++)
 {
-if (n > 57)
-{
-tmp = n + 39;
-putchar(tmp);
-}
-else
-{
+
 putchar(n);
+if (n != 57)
+{
+putchar(',');
+putchar(' ');
 }
 }
 putchar('\n');
