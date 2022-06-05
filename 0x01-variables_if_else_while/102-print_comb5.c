@@ -13,7 +13,6 @@ int main(void)
 {
 int i;
 int y;
-int z;
 for (i = 0; i < 10; i++)
 {
 for (y = 0; y < 10; y++)
