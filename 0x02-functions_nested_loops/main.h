@@ -1,9 +1,12 @@
 #include <unistd.h>
+#include <stdio.h>
 /* more headers goes there */
 
 /**
- * main - Entry point
+ * _putchar - Entry point
  *
+ * print_alphabet - function that print lower case alphabet
+ * 
  * Return: Always 0 (Success)
  */
 
@@ -11,8 +14,12 @@ int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
-int main(void)
+void print_alphabet(void)
 {
-_putchar("");
-return (0);
+char c;
+for (c = 'a'; c <= 'z'; c++)
+{
+_putchar(c);
+}
+_putchar('\n');
 }
