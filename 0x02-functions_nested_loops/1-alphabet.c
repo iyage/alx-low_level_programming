@@ -1,3 +1,4 @@
+#include "_putchar"
 /* more headers goes there */
 
 /**
