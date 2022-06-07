@@ -1,3 +1,5 @@
+#include <unistd.h>
+#include <stdio.h>
 /* more headers goes there */
 
 /**
@@ -7,12 +9,8 @@
  * 
  * Return: Always 0 (Success)
  */
-void print_alphabet(void)
+
+int _putchar(char c)
 {
-char c;
-for (c = 'a'; c <= 'z'; c++)
-{
-_putchar(c);
-}
-_putchar('\n');
+return (write(1, &c, 1));
 }
