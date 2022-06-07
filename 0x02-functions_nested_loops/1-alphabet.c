@@ -1,3 +1,4 @@
+#include "main.h"
 /* more headers goes there */
 
 /**
