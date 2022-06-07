@@ -1,5 +1,4 @@
-#include <unistd.h>
-#include <stdio.h>
+#include "_putchar.c"
 /* more headers goes there */
 
 /**
@@ -10,10 +9,6 @@
  * Return: Always 0 (Success)
  */
 
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
 void print_alphabet(void)
 {
 char c;
