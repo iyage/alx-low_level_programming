@@ -9,6 +9,7 @@
  * 
  * Return: Always 0 (Success)
  */
+-putchar(char c);
 void print_alphabet(void)
 {
 char c;
