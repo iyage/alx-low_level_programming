@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _abs(int) - function that print abs of an int
+ * _abs(int) - function that print abs of an int
  * @n: absolute of n is printed
  * Return:  return abs of n
  */
