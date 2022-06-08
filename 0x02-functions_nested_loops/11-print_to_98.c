@@ -4,6 +4,9 @@
 
 /**
  * print_to_98  - function that print lower case alphabet
+ * @n: integer to be printed
+ * decrement - decrement function
+ * increment - incremment function
  */
 void decrement(int n)
 {
@@ -166,9 +169,6 @@ n++;
 }
 }  
 }
-
-
-
 
 void print_to_98(int n)
 {
