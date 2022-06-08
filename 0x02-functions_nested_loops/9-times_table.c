@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * times_table  - function that print times table up to 9
  */
@@ -11,7 +12,6 @@ for (mul = 0; mul <= 9; mul++)
 result = num * mul;
 if (result > 9)
 {
-
 _putchar((result / 10) + '0');
 _putchar((result % 10) + '0');
 if (mul != 9)
