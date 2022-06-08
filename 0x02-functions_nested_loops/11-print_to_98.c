@@ -3,9 +3,9 @@
 /* more headers goes there */
 
 /**
+ * increment  - increment function
  * print_to_98  - function that print lower case alphabet
  * decrement -  decrement function
- * increment - increment function
  *@n: printed number
  */
 void decrement(int n)
