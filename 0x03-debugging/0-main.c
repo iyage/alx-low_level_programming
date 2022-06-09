@@ -1,6 +1,7 @@
 #include "main.h"
 /**
 * main - tests function to test the sign of an integer
+*@n - integer to be tested
 * Return: 0
 */
 
