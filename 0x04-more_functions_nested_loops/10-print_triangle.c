@@ -17,11 +17,10 @@ for (y = 1; y < i; y++)
 {
 _putchar(' ');
 }
-for (y = 1; y < x; y++)
+for (y = 0; y < x; y++)
 {
 _putchar('#');
 }
-
 _putchar('\n');
 i--;
 x++;
