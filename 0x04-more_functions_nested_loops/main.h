@@ -14,5 +14,6 @@ int mul(int, int);
  void print_diagonal(int n);
  void print_square(int);
  void fizzBuzz(void);
+ void print_triangle(int size);
 
 #endif /* MAIN_H */
