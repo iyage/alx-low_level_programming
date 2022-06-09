@@ -19,4 +19,5 @@ _putchar('\n');
 i++;
 n--;
 }
+_putchar('\n');
 }
