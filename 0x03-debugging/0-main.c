@@ -1,16 +1,16 @@
 #include "main.h"
+
 /**
-* main - tests function to test the sign of an integer
-*@n - integer to be tested
+* main - tests function that prints if integer is positive or negative
 * Return: 0
 */
 
 int main(void)
 {
-int n;
+int i;
 
-n = 0;
+i = 0;
+positive_or_negative(i);
 
-positive_or_negative(n);
 return (0);
 }
