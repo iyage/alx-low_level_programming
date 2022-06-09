@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *fizzBuzz- function fizzBuzz
+ *main-  entry point to print fizzbuzz
+ *Return: Always return 0
  */
-void fizzBuzz(void)
+int main(void)
 {
 int i;
 for (i = 1; i < 101; i++)
@@ -23,4 +24,5 @@ else
 printf("%d ", i);
 }
 putchar('\n');
+return (0);
 }
