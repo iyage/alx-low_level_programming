@@ -12,7 +12,7 @@ if (n <= 0)
 _putchar('\n');
 while (n > 0)
 {
-for (y = 0; y < i; y++)
+for (y = 1; y < i; y++)
 {
 _putchar(' ');
 }
