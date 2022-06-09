@@ -13,5 +13,6 @@ int mul(int, int);
  void print_line(int n);
  void print_diagonal(int n);
  void print_square(int);
+ void fizzBuzz(void);
 
 #endif /* MAIN_H */
