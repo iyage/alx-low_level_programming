@@ -40,9 +40,3 @@ i++;
 }
 printf("%d\n", largest_prime);
 }
-
-int main(void)
-{
-prime_factor(612852475143);
-return (0);
-}
