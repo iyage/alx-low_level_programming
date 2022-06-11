@@ -1,0 +1,48 @@
+#include <stdio.h>
+/**
+ * prime_factor - function to print largest prime factor
+ * @num: number
+ * @main: entry point
+ * Return: return 0
+ */
+/*  */
+
+void prime_factor(long int num)
+{
+long int numb = num;
+int i = 2;
+int j;
+int prime;
+int largest_prime = 0;
+while (i <= numb)
+{
+if (numb % i == 0)
+{
+for (j = 2; j < i + 1; j++)
+{
+if (j == i)
+{
+prime = i;
+numb =  numb / i;
+
+if (prime > largest_prime)
+{
+largest_prime = prime;
+break;
+}
+}
+if (i % j == 0)
+break;
+}
+}
+
+i++;
+}
+printf("%d\n", largest_prime);
+}
+
+int main(void)
+{
+prime_factor(612852475143);
+return (0);
+}
