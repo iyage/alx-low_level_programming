@@ -19,7 +19,7 @@ for (mul = 0; mul <= n; mul++)
 {
 result = num * mul;
 if (mul != n)
-printf("%d, ", result);
+printf("%d,  ", result);
 else
 printf("%d", result);
 }
