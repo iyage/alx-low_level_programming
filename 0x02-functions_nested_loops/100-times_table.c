@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h> 
+#include <stdio.h>
 /**
  * print_times_table  - function that print times table up to n
  * @n: times table
@@ -23,8 +23,8 @@ if (mul != n)
 if (result > 9 && result < 99)
 printf("%d, ", result);
 else if (result > 99)
-printf("%d,", result);
-else 
+printf("%d, ", result);
+else
 printf("%d,   ", result);
 }
 else
