@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-unsigned long int a = 0;
-unsigned long int b = 1;
-unsigned long int c;
+unsigned long a = 0;
+unsigned long  b = 1;
+unsigned long c;
 int i;
 for (i = 0; i < 98; i++)
 {
@@ -15,9 +15,9 @@ c = a + b;
 a = b;
 b = c;
 if (i == 97)
-printf("%ld", c);
+printf("%lu", c);
 else
-printf("%ld, ", c);
+printf("%lu, ", c);
 }
 printf("\n");
 return (0);
