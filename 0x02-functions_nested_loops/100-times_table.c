@@ -17,26 +17,13 @@ for (num = 0; num <= n; num++)
 for (mul = 0; mul <= n; mul++)
 {
 result = num * mul;
-if (result > 9)
-{
-_putchar((result / 10) + '0');
-_putchar((result % 10) + '0');
 if (mul != n)
-_putchar(',');
-_putchar(' ');
-}
+printf("%d, ", result);
 else
-{
-_putchar(num * mul + '0');
-if (mul != n)
-{
-_putchar(',');
-_putchar(' ');
-_putchar(' ');
-}
+printf("%d", result);
+
 }
 }
 _putchar('\n');
-}
 }
 }
