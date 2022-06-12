@@ -26,8 +26,8 @@ else if (result > 99)
 printf("%d, ", result);
 else 
 printf("%d,   ", result);
-else
 }
+else
 printf("%d", result);
 }
 printf("\n");
