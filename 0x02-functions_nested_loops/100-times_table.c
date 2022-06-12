@@ -22,9 +22,8 @@ if (mul != n)
 printf("%d, ", result);
 else
 printf("%d", result);
-
 }
-_putchar('\n');
+printf("\n");
 }
 
 }
