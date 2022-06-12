@@ -19,7 +19,7 @@ if (result > 9)
 {
 _putchar((result / 10) + '0');
 _putchar((result % 10) + '0');
-if (mul != 9)
+if (mul != n)
 _putchar(',');
 _putchar(' ');
 }
