@@ -21,9 +21,9 @@ result = num * mul;
 if (mul != n)
 {
 if (result > 9 && result < 99)
-printf("%d,  ", result);
-else if (result > 99)
 printf("%d, ", result);
+else if (result > 99)
+printf("%d,", result);
 else 
 printf("%d,   ", result);
 }
