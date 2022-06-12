@@ -26,7 +26,7 @@ _putchar(' ');
 else
 {
 _putchar(num * mul + '0');
-if (mul != 9)
+if (mul != n)
 {
 _putchar(',');
 _putchar(' ');
