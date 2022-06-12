@@ -19,8 +19,15 @@ for (mul = 0; mul <= n; mul++)
 {
 result = num * mul;
 if (mul != n)
-printf(" %d,  ", result);
+{
+if (result > 9 && result < 99)
+printf("%d,  ", result);
+else if (result > 99)
+printf("%d, ", result);
+else 
+printf("%d,   ", result);
 else
+}
 printf("%d", result);
 }
 printf("\n");
