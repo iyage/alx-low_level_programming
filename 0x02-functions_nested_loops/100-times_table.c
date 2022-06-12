@@ -24,7 +24,8 @@ else
 printf("%d", result);
 
 }
-}
 _putchar('\n');
+}
+
 }
 }
