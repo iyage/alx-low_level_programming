@@ -21,7 +21,6 @@ while (count >= 0)
 printf("%c", *(s + count));
 count--;
 }
-printf("%d", count);
 putchar('\n');
 }
 
