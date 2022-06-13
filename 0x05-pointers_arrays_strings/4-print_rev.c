@@ -8,7 +8,8 @@
 
 void print_rev(char *s)
 {
-int i, count = 0;
+int i = 0;
+int count = 0;
 
 while (*(s + i) != '\0')
 {
@@ -16,9 +17,9 @@ count++;
 i++;
 }
 
-while (i >= 0)
+while (count >= 0)
 {
-putchar(*(s + i));
+putchar(*(s + count));
 i--;
 }
 printf("\n");
