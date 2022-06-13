@@ -10,18 +10,18 @@ void print_rev(char *s)
 {
 int i = 0;
 int count = 0;
-
 while (*(s + i) != '\0')
 {
 count++;
 i++;
 }
-
+count = count - 1;
 while (count >= 0)
 {
-putchar(*(s + count));
---count;
+printf("%c", *(s + count));
+count--;
 }
+printf("%d", count);
 putchar('\n');
 }
 
