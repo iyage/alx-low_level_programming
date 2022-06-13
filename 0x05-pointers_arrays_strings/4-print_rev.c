@@ -20,7 +20,8 @@ i++;
 while (count >= 0)
 {
 putchar(*(s + count));
-count--;
+--count;
 }
+putchar("\n");
 }
 
