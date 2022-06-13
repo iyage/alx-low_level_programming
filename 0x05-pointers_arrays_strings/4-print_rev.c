@@ -20,7 +20,7 @@ i++;
 while (count >= 0)
 {
 putchar(*(s + count));
-i--;
+count--;
 }
 printf("\n");
 }
