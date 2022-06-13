@@ -22,6 +22,6 @@ while (count >= 0)
 putchar(*(s + count));
 --count;
 }
-putchar("\n");
+putchar('\n');
 }
 
