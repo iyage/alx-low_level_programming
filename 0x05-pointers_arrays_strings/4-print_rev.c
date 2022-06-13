@@ -15,7 +15,7 @@ while (*(s + i) != '\0')
 i++;
 }
 
-while (i > -1)
+while (i >= 0)
 {
 putchar(*(s + i));
 i--;
