@@ -9,7 +9,7 @@ int i;
 int l = strlen(str);
 int half_length = l / 2;
 i = half_length;
-while (i < l-1)
+while (i < l)
 {
 putchar(*(str + i));
 i++;
