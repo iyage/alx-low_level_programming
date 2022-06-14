@@ -10,9 +10,9 @@ int i;
 int l = strlen(str);
 int half_length;
 if (l % 2 == 0)
- half_length = l / 2;
- else
- half_length = (l - 1) / 2;
+half_length = l / 2;
+else
+half_length = (l - 1) / 2;
 i = half_length;
 while (i < l)
 {
