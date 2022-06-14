@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * void print_array - print n nos of array element
+ * print_array - print n nos of array element
  *  @a: pointer to array
  * @n: n nos of element
  */
