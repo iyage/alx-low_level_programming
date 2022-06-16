@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * _strcmp - compare two strings
- * @s1: second string
+ * @s: second string
  * @s2: first string
  * Return: return thr difference;
  */
