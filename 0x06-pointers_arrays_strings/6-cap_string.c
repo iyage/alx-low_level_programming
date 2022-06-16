@@ -16,6 +16,8 @@ int strLen = strlen(str);
 int i = 0;
 while (i < strLen)
 {
+if (str[i] >= 'a' && str[i] <= 'z' )
+str[i] = str[i] - 32;
 if (str[i - 1] == ' ' ||
 				str[i - 1] == '\t' ||
 				str[i - 1] == '\n' ||
