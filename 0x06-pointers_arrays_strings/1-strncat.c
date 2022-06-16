@@ -1,9 +1,10 @@
 #include <string.h>
 #include <stdio.h>
 /**
- * _strcat - concatenation function
+ * _strncat - concatenation function
  * @dest: string to concatenate to
  * @src: string to concatenate
+ * @n: size of concatenate str
  * Return: char* pointer is return;
  */
 char *_strncat(char *dest, char *src, int n)
