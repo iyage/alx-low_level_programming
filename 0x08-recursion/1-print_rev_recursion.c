@@ -4,7 +4,7 @@
  *  _print_rev_recursion - function to print char in reverse order
  *@s: char string to print
  */
- void _print_rev_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
 if (*s != '\0')
 {
