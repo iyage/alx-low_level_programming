@@ -3,7 +3,7 @@
 /**
  * _pow_recursion - function to print power of number
  *@x: base
- *@x: index
+ *@y: index
  *Return: intger value
  */
 int _pow_recursion(int x, int y)
