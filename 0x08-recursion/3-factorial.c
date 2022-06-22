@@ -3,6 +3,7 @@
 /**
  *factorial - function to print factorial
  *@n: factorial size
+ *Return: intger value
  */
 int factorial(int n)
 {
