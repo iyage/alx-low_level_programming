@@ -4,7 +4,7 @@
  *cents - function to minimal change
  * @amount: argument value
  */
-void cents(int amount)
+void cent(int amount)
 {
 int change = 0;
 while (amount > 0)
@@ -60,7 +60,7 @@ printf("0\n");
 }
 else
 {
-cents(amount);
+cent(amount);
 return (0);
 }
 }
